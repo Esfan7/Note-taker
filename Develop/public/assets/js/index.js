@@ -11,6 +11,7 @@ if (window.location.pathname === '/notes') {
   noteText = document.querySelector('.note-textarea');
   saveNoteBtn = document.querySelector('.save-note');
   newNoteBtn = document.querySelector('.new-note');
+  console.log(newNoteBtn)
   noteList = document.querySelectorAll('.list-container .list-group');
 }
 

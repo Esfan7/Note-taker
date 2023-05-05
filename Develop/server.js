@@ -20,6 +20,7 @@ app.get("/notes", (req, res)=>{
 
 //route api db.json
 app.get("/api/notes", (req, res)=>{
+  console.log("getting notes from api")
   res.sendFile(path.join(__dirname,"./db/db.json"))
 });
 
